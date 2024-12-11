@@ -1,0 +1,61 @@
+page{background:#fff;}
+
+/* goods */
+.goods{display: flex; border-top: 1px solid #efefef;}
+
+/* type */
+.goods_type{ width: 25%; background: #f5f5f5; position: fixed; height: calc(100vh - 88rpx); }
+.goods_type .item{height: 88rpx; line-height: 88rpx; text-align: center; font-size: 28rpx; color: #666; border-left: 4rpx solid #fff;}
+.goods_type .item.active{background: #fff; color: #F04650;  border-left: 4rpx solid #F04650;}
+
+
+/* list */
+.goods_list{ width: 75%; padding: 0 28rpx; margin-left: auto; box-sizing: border-box;}
+.goods_list .item{display: flex; align-items: center; border-bottom: 1rpx dashed #efefef; padding: 28rpx 0;}
+.goods_list .item_pic{width: 30%; border-radius: 16rpx;}
+.goods_list .item_box{width: 66%; margin-left: auto;}
+.goods_list .item_title{font-size: 28rpx; height: 72rpx; line-height: 36rpx; overflow: hidden;}
+.goods_list .item_price{font-size: 28rpx; margin-top: 12rpx; font-family: din; color:  #F04650;}
+.goods_list .item_price::before{content: "￥";}
+
+.side{
+  background-color: #fff;
+  width: 100rpx;
+  border-radius: 50rpx;
+  position: fixed;
+  z-index:999999999;
+  top: 1000rpx;
+  left: 630rpx;
+}
+
+.side1{
+  background-color: #fff;
+  width: 100rpx;
+  border-radius: 50rpx;
+  position: fixed;
+  z-index:999999999;
+  top: 900rpx;
+  left: 630rpx;
+}
+.add{
+  font-size: 50rpx;
+  background-color:#F04650;
+  width: 90rpx;
+  border-radius: 50%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0rpx;
+  font-weight: bold;
+  color: #fff;
+}
+/* all */
+.flex{display: flex; align-items: center; flex-wrap: wrap;}
+/* top */
+.home_top{padding-top: 32rpx;}
+/* search */
+.home_search{background: #F3F3F3; width: 99%; height: 88rpx; border-radius: 100rpx; padding: 0 20rpx;margin-bottom: 20rpx;}
+.home_search .icon{ width: 56rpx; height: 56rpx;}
+.home_search .input{width: 360rpx; height: 88rpx; padding-left: 12rpx; font-size: 28rpx;}
+.home_search .button{background: linear-gradient(to bottom, #FF8080 , #EC4E4F); width: 132rpx; height: 56rpx; border-radius: 100rpx; color: #fff; line-height: 56rpx; font-size: 28rpx; margin: 0; padding: 0; margin-left: auto;}

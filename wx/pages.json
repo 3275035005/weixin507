@@ -1,0 +1,247 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shangcheng/shangcheng",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/shoppingcart/shoppingcart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/shoppingcart_xiadan/shoppingcart_xiadan",
+			"style": {
+				"navigationBarTitleText": "下单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		
+
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/info/info",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/denglu/denglu",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+
+
+		{
+			"path": "pages/zhuce/zhuce",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/shangcheng_xinxi/shangcheng_xinxi",
+			"style": {
+				"navigationBarTitleText": "商品信息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shangcheng_xiadan/shangcheng_xiadan",
+			"style": {
+				"navigationBarTitleText": "商品下单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shangcheng_push/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/trends/trends",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/push/push",
+			"style": {
+				"navigationBarTitleText": "发布帖子",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/albums/albums",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/user/praise/praise",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/user/info/updateImg/updateImg",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/info/updateInfo/updateInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/setting/updatePossword/updatePossword",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#ff0f0f",
+		"backgroundColor": "#FFFFFF",
+		"fontSize": "14px",
+		"borderStyle": "black",
+
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/images/tabbar/home.png",
+				"selectedIconPath": "/static/images/tabbar/home_activate.png"
+
+			},
+			{
+				"pagePath": "pages/shangcheng/shangcheng",
+				"text": "商城",
+				"iconPath": "/static/images/tabbar/copy.png",
+				"selectedIconPath": "/static/images/tabbar/copy_activate.png"
+			},
+			{
+				"pagePath": "pages/push/push",
+				"height": "70px",
+				"width": "80px",
+				"iconPath": "static/images/tabbar/add-one.png",
+				"selectedIconPath": "static/images/tabbar/add-one.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "/static/images/tabbar/message.png",
+				"selectedIconPath": "/static/images/tabbar/message_activate.png"
+			}, {
+				"pagePath": "pages/user/user",
+				"text": "我",
+				"onReachBottonDistance": 200,
+				"iconPath": "/static/images/tabbar/people.png",
+				"selectedIconPath": "/static/images/tabbar/people_activate.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
